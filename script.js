@@ -107,11 +107,11 @@ document.addEventListener('DOMContentLoaded', function() {
             
             switch(type) {
                 case 'email':
-                    url = 'mailto:ai7.development@gmail.com?subject=طلب تطوير موقع إلكتروني&body=مرحباً، أود طلب موقع إلكتروني...';
+                    url = 'mailto:ai7.egypt@gmail.com?subject=طلب تطوير موقع إلكتروني&body=مرحباً، أود طلب موقع إلكتروني...';
                     message = 'جاري فتح بريدك الإلكتروني...';
                     break;
                 case 'whatsapp':
-                    url = 'https://wa.me/201558882436?text=مرحباً، أود طلب موقع إلكتروني من AI7';
+                    url = 'https://wa.me/201155996956?text=مرحباً، أود طلب موقع إلكتروني من AI7';
                     message = 'جاري فتح الواتساب...';
                     break;
                 case 'tiktok':
