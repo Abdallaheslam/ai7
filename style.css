@@ -1,3 +1,6 @@
+/* ===== AI7 - تطوير مواقع احترافية ===== */
+/* تصميم: عبدالله إسلام | AI7 */
+
 /* ===== المتغيرات ===== */
 :root {
     --primary: #4361ee;
@@ -965,3 +968,65 @@ a {
         justify-content: center;
     }
 }
+
+/* ===== تحسينات إضافية ===== */
+@media (max-width: 360px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+    }
+    
+    .service-features {
+        flex-direction: column;
+    }
+}
+
+/* ===== تحسين إمكانية الوصول ===== */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* ===== Dark Mode Support ===== */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --light: #0f172a;
+        --dark: #f8fafc;
+        --gray-light: #334155;
+    }
+    
+    body {
+        background: var(--light);
+        color: var(--dark);
+    }
+    
+    .main-header {
+        background: #1e293b;
+    }
+    
+    .about-card,
+    .service-card,
+    .contact-card {
+        background: #1e293b;
+        border-color: #334155;
+    }
+    
+    .btn-contact {
+        background: #334155;
+        color: #f8fafc;
+    }
+}
+
+/* ===== AI7 Signature ===== */
+/* تم التطوير بواسطة AI7 | تطوير مواقع احترافية */
+/* 01155996956 | ai7-dev.netlify.app */
